@@ -1,0 +1,37 @@
+/** con esto le voy a aplicar a todos los elementos una propiedad*/
+* { 
+    color: blue;
+}
+p, span { 
+    color: red;
+    width: 300px;
+}
+/** esto es un comentario dentro de un archivo css */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: blue;
+}
+section {
+    width: 300px;
+    padding: 50px;
+    border: 15px solid green;
+    margin: 20;
+}
+
+#mi_parrafo { 
+    color: yellow;
+    font-size: 23;
+    border: 1px solid orange;
+}
+
+.estaesmiclase{ 
+    font-weight: bold;
+    color: lightblue;
+}

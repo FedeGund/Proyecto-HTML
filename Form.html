@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creando un formulario en html</title>
+</head>
+<body>
+    <form action="" method="post"> <!--el atriburo action es para que el desarrolador back-end define a que pagina va a mandar el formulario cuando el usuario envie la info  --> 
+        <!--el atriburo method si es post no va a mostrar las variables que viajan, si es get van en la URL (Todo esto es para facilitar al back-end) -->
+        <label>Nombre</label>
+            <input type="text" name="Nombre" placeholder="Ingrese su nombre" required/>
+        <label>Apellido</label>
+             <input type="text" name="Apellido" placeholder="Ingrese su apellido" required/>
+        <label>E-mail</label>
+             <input type="email" name="E-mail" placeholder="Ingrese su e-mail" required/>
+        <label>Contraseña</label>
+             <input type="password" name="Contraseña" placeholder="Ingrese su contraaseña" required/>
+         <input type="submit" value="Enviar" />
+         <!--siempre es bueno ponerle nombres a las variables  -->
+         <!--Si trabajo con contraseña nunca usar metodo get  -->
+    </form>
+</body>
+</html>
