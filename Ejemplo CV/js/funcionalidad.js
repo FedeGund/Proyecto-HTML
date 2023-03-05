@@ -147,7 +147,7 @@ modo.addEventListener ("click", function(){
         document.documentElement.style.setProperty('--color-3', '#5d8883');
         document.documentElement.style.setProperty('--color-pagina', '#334f48');
         document.documentElement.style.setProperty('--color-texto', 'darkgray');
-        document.getElementById('img-github').src='imagenes/github/github-mark-white.svg';
+        document.getElementById('img-github').src='imagenes/github/github-mark-white.png';
         document.getElementById('img-lin').src='imagenes/linked in/In-White-96@2x.png';
     } else {
         modo.className="fa-solid fa-sun";
@@ -157,7 +157,7 @@ modo.addEventListener ("click", function(){
         document.documentElement.style.setProperty('--color-3', '#54C6EB');
         document.documentElement.style.setProperty('--color-pagina', 'white');
         document.documentElement.style.setProperty('--color-texto', 'black');
-        document.getElementById('img-github').src='imagenes/github/github-mark.svg';
+        document.getElementById('img-github').src='imagenes/github/github-mark.png';
         document.getElementById('img-lin').src='imagenes/linked in/In-Blue-128.png';
 
     }
